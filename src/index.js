@@ -7,16 +7,18 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 class NavBar extends React.Component {constructor(...args) {super(...args);_defineProperty(this, "state",
     {
       content: [
-      { id: 1, description: '<ul><li>We can help you build your website.</li><li>Have good connections with your clients.</li><li>Build a strong customers data base.</li></ul>' },
-      { id: 2, description: "<iframe src='https://sadasystems.looker.com/embed/public/8RK9QQF9HjfrfbS3zQHzsMs6R7PzC9Ns?type=table' width='600' height='338' frameborder='0'></iframe>" },
-      { id: 3, description: "<iframe src='https://sadasystems.looker.com/embed/public/8RK9QQF9HjfrfbS3zQHzsMs6R7PzC9Ns' width='600' height='338' frameborder='0'></iframe>" },
-      { id: 4, description: '<h1>About is here</h1>' }],
-
-      listItems: [
-      { id: 1, name: 'Home', active: false },
-      { id: 2, name: 'table', active: false },
-      { id: 3, name: 'visual', active: false },
-      { id: 4, name: 'About Us', active: false }],
+        { id: 1, description: "<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vR9OrLyWwApUbFF8Yf-UVVQgOC6rN6gl_LlNM9Uujs42epAvMyU5KDQT1OzSxRn2g3hElCKWYZGOSfL/embed?start=false&loop=false&delayms=60000' frameborder='0' width='960' height='569' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>" },
+        { id: 2, description: "<iframe src='https://sadasystems.looker.com/embed/public/Bfb9hHS8j7YRJGVjnpgB4TQPJPWNTYkr' width='650' height='400' frameborder='0'></iframe>" },
+        { id: 3, description: "<ul><iframe src='https://sadasystems.looker.com/embed/public/5nXGKhrMPc8NDQKbvFJy7yYFk4wNc89b' width='600' height='338' frameborder='0'></iframe></ul>, <ul><iframe src='https://sadasystems.looker.com/embed/public/cGkzwhpdvRp8hMP4D8thfwyzWF2qwGNX' width='600' height='338' frameborder='0'></iframe></ul>,<ul><iframe src='https://sadasystems.looker.com/embed/public/HyCtPJ7FTdbdmbGcGSccgjswRMMkwnKy' width='600' height='338' frameborder='0'></iframe></ul>" },
+        { id: 4, description: "<ul><iframe src='https://sadasystems.looker.com/embed/public/MZwB8xzp8tNMYHPJk3tP44BfZgRtTv9v' width='600' height='338' frameborder='0'></iframe></ul>, <ul><iframe src='https://sadasystems.looker.com/embed/public/CF9d6kGy8xC4mVFgZxRDqDhRNJrPymWP' width='600' height='338' frameborder='0'></iframe></ul>,<ul><iframe src='https://sadasystems.looker.com/embed/public/gWXJkvJXDC9ckn297pYmVyHTpC7ZzqYQ' width='600' height='338' frameborder='0'></iframe></ul>, <ul><iframe src='https://sadasystems.looker.com/embed/public/mf3mrFqTTrZN99wGbtr3kKyB3Cj8TKMW' width='600' height='480' frameborder='0'></iframe></ul>" },
+        { id: 5, description: "<iframe src='https://sadasystems.looker.com/embed/public/rdMGty4bfsTDNMPNbWDqXQvhxNcB2w4X' width='600' height='400' frameborder='0'></iframe>,<iframe src='https://sadasystems.looker.com/embed/public/2jZfvbMmXVCC6P4chGBSZQNJVgyZd3fb' width='600' height='400' frameborder='0'></iframe>" }],
+  
+        listItems: [
+        { id: 1, name: 'Home', active: false },
+        { id: 2, name: 'Workforce', active: false },
+        { id: 3, name: 'Gender', active: false },
+        { id: 4, name: 'Racial Representation', active: false },
+        { id: 5, name: 'Leadership Representation', active: false }],
 
       body: null });_defineProperty(this, "showContentHandler",
 
